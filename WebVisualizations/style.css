@@ -1,4 +1,9 @@
-#brandlogo {
+.container-fluid {
+    padding-left: 4%;
+    padding-right: 4%;
+    }
+    
+    #brandlogo {
     color: #fff;
     background: teal;
     height: auto;
@@ -17,3 +22,57 @@
   body{
       background-color: lightgray;
   }
+
+  .container {
+    justify-content: space-evenly;
+}
+
+.row {
+    padding: 0% 3% 0% 3%;
+}
+
+.col-lg-6 {
+   background-color: white;
+   padding: 3% 3% 3% 3%;
+
+}
+.col-lg-5 {
+    background-color: white;
+    padding: 3% 3% 3% 3%;
+
+}
+.img {
+    margin: 5px 5px 5px 5px;
+}
+
+@media screen and (max-width: 991px) {
+    /* start of large tablet styles */
+    .img-responsive {
+      min-width: 45%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* start of medium tablet styles */
+    /* Adding a fixed/percentage min-width could ensure that the image doesn't get too small */
+    .img-responsive {
+      min-width: 100%;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    /* start of phone styles */
+    /* It's possible to hide the image if the screen becomes too small */
+    .img-responsive {
+      min-width: 100%;
+    }
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #61a2b6;
+    color: white;
+    text-align: center;
+ }
