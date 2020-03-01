@@ -4,7 +4,7 @@
 
 This repository seeks to create a website using `HTML` and `CSS` primarily from `Bootstrap` code snippets. A prior data analysis `WeatherPy` will be used as the data to create a website "Dashboard" to demonstrate the power of being able share and communicate your data science results publicly on a website. The website will be deployed on GitHub pages as the host of the `.html` files.
 
-![Images/landingResize.png](WebVisualizations/Images/WebVis_home.png)
+![WebVis_home.png](WebVisualizations/Images/WebVis_home_lg.png)
 
 
 ## Latitude - Latitude Analysis Dashboard with Attitude
@@ -39,65 +39,45 @@ The website has at the top of every page a navigation menu that:
 * Provides two more links on the right: "Comparisons" which links to the comparisons page, and "Data" which links to the data page.
 * Is responsive (using media queries). The nav must have similar behavior as the screenshots ["Navigation Menu" section](#navigation-menu) (notice the background color change).
 
-Finally, the website must be deployed to GitHub pages.
-
-When finished, submit to BootcampSpot the links to 1) the deployed app and 2) the GitHub repository.
-
-### Considerations
-
-* You may use the [weather data](Resources/cities.csv) or choose another dataset. Alternatively, you may use the included [cities dataset](Resources/cities.csv) and pull the images from the [assets folder](Resources/assets).
-* You must use bootstrap. This includes using the bootstrap `navbar` component for the header on every page, the bootstrap table component for the data page, and the bootstrap grid for responsiveness on the comparison page.
-* You must deploy your website to GitHub pages, with the website working on a live, publicly accessible URL as a result.
-* Be sure to use a CSS media query for the navigation menu.
-* Be sure your website works at all window widths/sizes.
-* Feel free to take some liberty in the visual aspects, but keep the core functionality the same.
-
-### Bonuses
-
-* Use a different dataset! The requirements above still hold, but make it your own.
-* Use a bootstrap theme to customize your website. You may use a tool like [Bootswatch](https://bootswatch.com/). Make it look snazzy, give it some attitude. If using this, be sure you also meet all of the requirements listed above.
-* Add extra visualizations! The more comparisons the better, right?
-* Use meaningful glyphicons next to links in the header.
-* Have visualization navigation on every visualizations page with an active state. See the screenshots below.
 
 ### Screenshots
 
-This section contains screenshots of each page that must be built, at varying screen widths. These are a guide; you can meet the requirements without having the pages look exactly like the below images.
+This section contains screenshots of each page at varying screen widths.
 
 #### Landing page
 
 Large screen:
-![Landing page large screen](Images/landing-lg.png)
+![WebVis_home_lg.png](WebVisualizations/Images/WebVis_home_lg.png)
 
 Small screen:
-![Landing page small screen](Images/landing-sm.png)
+![WebVis_home_sm.png](WebVisualizations/Images/WebVis_home_sm.png)
 ￼
 
 #### Comparisons page
 
 Large screen:
-![comparison page large screen](Images/comparison-lg.png)
+![comparison page large screen](WebVisualizations/Images/Comparison_lg.png)
 
 Small screen:
-![comparison page small screen](Images/comparison-sm.png)
+![comparison page small screen](WebVisualizations/Images/Comparison_sm.png)
 
 #### Data page
 
 Large screen:
-![data page large screen](Images/data-lg.png)
+![data page large screen](WebVisualizations/Images/Data_lg.png)
 
 Small screen:
-![data page small screen](Images/data-sm.png)
+![data page small screen](WebVisualizations/Images/Data_sm.png)
 
 #### Visualization pages
 
 You'll build four of these, one for each visualization. Here's an example of one:
 
 Large screen:
-![visualize page large screen](Images/visualize-lg.png)
+![visualize page large screen](WebVisualizations/Images/Temperature_lg.png)
 
 Small screen:
-![visualize page small screen](Images/visualize-sm.png)
+![visualize page small screen](WebVisualizations/Images/Temperature_sm.png)
 
 #### Navigation menu
 
