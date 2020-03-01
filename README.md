@@ -82,7 +82,7 @@ Small screen:
 #### Navigation menu
 
 Large screen:
-![nav menu large screen](Images/nav-lg.png)
+![nav menu large screen](WebVisualizations/Images/menu_lg.png)
 
 Small screen:
-![nav menu small screen](Images/nav-sm.png)
+![nav menu small screen](WebVisualizations/Images/menu_sm.png)
