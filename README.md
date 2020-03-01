@@ -13,6 +13,8 @@ For this exercise we'll be using [weather data](WebVisualizations/Resources/citi
 
 Individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
+The live deployed website can be found here: [Web Visualization](https://kipmadden.github.io/Web-Design-Challenge/WebVisualizations/index.html)
+
 ### Website Pages
 
 For reference, see the ["Screenshots" section](#screenshots) below.
@@ -50,7 +52,7 @@ Large screen:
 ![WebVis_home_lg.png](WebVisualizations/Images/WebVis_home_lg.png)
 
 Small screen:
-![WebVis_home_sm.png](WebVisualizations/Images/WebVis_home_sm.png){ width=50% }
+![WebVis_home_sm.png](WebVisualizations/Images/WebVis_home_sm.png)
 ￼
 
 #### Comparisons page
