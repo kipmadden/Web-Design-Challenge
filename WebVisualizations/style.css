@@ -10,13 +10,13 @@
   }
   
 
-  .navbar  .navbar-brand{
+  .navbar .navbar-brand{
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     color: #fff;
     background: teal;
     padding: 1% 1% 1% 1%;
-    margin: -1% 2% -1% 2%;
+    margin: -1% 2% -1% 5%;
   }
 
   body{
@@ -30,42 +30,26 @@
 .row {
     padding: 0% 3% 0% 3%;
 }
-
-.col-lg-6 {
+.col {
+    background-color: white;
+}
+.col-lg-4 {
    background-color: white;
-   padding: 3% 3% 3% 3%;
-
 }
 .col-lg-5 {
     background-color: white;
-    padding: 3% 3% 3% 3%;
-
 }
+.col-lg-6 {
+    background-color: white;
+ }
+ .col-lg-7 {
+     background-color: white;
+ }
 .img {
     margin: 5px 5px 5px 5px;
 }
-
-@media screen and (max-width: 991px) {
-    /* start of large tablet styles */
-    .img-responsive {
-      min-width: 45%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    /* start of medium tablet styles */
-    /* Adding a fixed/percentage min-width could ensure that the image doesn't get too small */
-    .img-responsive {
-      min-width: 100%;
-    }
-}
-
-@media screen and (max-width: 479px) {
-    /* start of phone styles */
-    /* It's possible to hide the image if the screen becomes too small */
-    .img-responsive {
-      min-width: 100%;
-    }
+.card {
+    border: none;
 }
 .footer {
     position: fixed;
@@ -76,3 +60,58 @@
     color: white;
     text-align: center;
  }
+
+
+@media screen and (max-width: 992px) {
+    /* start of large tablet styles */
+    .img-responsive {
+      min-width: 44%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* start of medium tablet styles */
+    /* Adding a fixed/percentage min-width could ensure that the image doesn't get too small */
+    .img-responsive {
+      min-width: 100%;
+    }
+    .navbar {
+        background-color: teal !important;
+      }
+    .navbar-nav {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        background-color: white;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    /* start of phone styles */
+    /* It's possible to hide the image if the screen becomes too small */
+    .img-responsive {
+      min-width: 100%;
+    }
+    .navbar {
+        background-color: teal !important;
+      }
+    .navbar-nav {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        background-color: white;
+    }
+    a#navbarDropdownMenuLink.nav-link.dropdown-toggle{
+        color: rgba(0,0,0,0.9);
+        background: gray;
+        padding: 8px 0px;
+    }
+}

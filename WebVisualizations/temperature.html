@@ -12,7 +12,7 @@
   </head>
   <body>
       
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e3f2fd;" >
         <a class="navbar-brand ml-4"  href="/">Lattitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -27,7 +27,7 @@
                   <a class="dropdown-item" href="temperature.html">Max Temperature</a>
                   <a class="dropdown-item" href="humidity.html">Humidity</a>
                   <a class="dropdown-item" href="cloudiness.html">Coudiness</a>
-                  <a class="dropdown-item" href="#">Wind Speed</a>
+                  <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
                 </div>
             </li>
             <li class="nav-item active">
@@ -45,26 +45,26 @@
 
         <div class="container-fluid ">
             <div class="row">
-                <div class="col-lg-6 my-8 mx-2 p-5">
-                    <h1 class="display-5 text-info">Summary: Lattitude vs. X</h1>
+                <div class="col-lg-7 my-5 mx-2 p-5">
+                    <h1 class="display-5 text-info">Lattitude vs. Max Temperature</h1>
                     <hr>
-                    <img src="Images/Temperature.png" class="float-left mr-3 about-img img-responsive" width="40%" alt="Scatterplot of Lattitude vs.Temperature">
+                    <img src="Images/Temperature.png" class="float-left mr-3 about-img img-responsive" width="100%" alt="Scatterplot of Lattitude vs.Temperature">
                     <p ><strong>Purpose:</strong> Analyze how weather changes with respect to changes in lattitude.</p>
                     <p><strong>Methods:</strong> 500 pairs of randomly determined Lattitude / Longitude coordinates were generated. A Using the OpenWeatherApp API and 500 randomly determined cities,
                         four weather related measurements were scatter plotted against Lattitude to visualize any correlations.
                     </p>
                 </div>
-                <div class="col-lg-5 my-8 mx-2 p-5">
+                <div class="col-lg-4 my-5 mx-2 p-5 align-self-start">
                     <h1 class="display-5 text-info">Visualizations</h1>
                     <hr>
                     
-                    <a href="comparison.html"><img src="Images/Temperature.png" class="img-responsive float-lg-left m-2" width="44%" alt="Scatterplot of Lattitude vs.Temperature"></a>
+                    <img src="Images/Temperature.png" class="img-responsive float-lg-left m-2 border border-primary" width="40%" alt="Scatterplot of Lattitude vs.Temperature">
                     
-                    <a href="comparison.html"><img src="Images/Humidity.png" class="img-responsive float-lg-right m-2" width="44%" alt="Scatterplot of Lattitude vs.Temperature"></a>
+                    <a href="humidity.html"><img src="Images/Humidity.png" class="img-responsive float-lg-right m-2" width="41%" alt="Scatterplot of Lattitude vs.Temperature"></a>
                     
-                    <a href="comparison.html"><img src="Images/Cloudiness.png" class="img-responsive float-lg-left m-2" width="44%" alt="Scatterplot of Lattitude vs.Temperature"></a>
+                    <a href="cloudiness.html"><img src="Images/Cloudiness.png" class="img-responsive float-lg-left m-2" width="41%" alt="Scatterplot of Lattitude vs.Temperature"></a>
                     
-                    <a href="comparison.html"><img src="Images/WindSpeed.png" class="img-responsive float-lg-right m-2" width="44%" alt="Scatterplot of Lattitude vs.Temperature"></a>
+                    <a href="windspeed.html"><img src="Images/WindSpeed.png" class="img-responsive float-lg-right m-2" width="41%" alt="Scatterplot of Lattitude vs.Temperature"></a>
 
                 </div>
             </div>
