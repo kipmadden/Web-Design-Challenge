@@ -8,12 +8,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Lattitude Data Visualizations</title>
+    <title>Latitude vs. Temperature</title>
   </head>
   <body>
       
     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e3f2fd;" >
-        <a class="navbar-brand ml-4"  href="/">Lattitude</a>
+        <a class="navbar-brand ml-4"  href="/">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -46,25 +46,30 @@
         <div class="container-fluid ">
             <div class="row">
                 <div class="col-lg-7 my-5 mx-2 p-5">
-                    <h1 class="display-5 text-info">Lattitude vs. Max Temperature</h1>
+                    <h1 class="display-5 text-info">Latitude vs. Max Temperature</h1>
                     <hr>
-                    <img src="Images/Temperature.png" class="float-left mr-3 about-img img-responsive" width="100%" alt="Scatterplot of Lattitude vs.Temperature">
-                    <p ><strong>Purpose:</strong> Analyze how weather changes with respect to changes in lattitude.</p>
-                    <p><strong>Methods:</strong> 500 pairs of randomly determined Lattitude / Longitude coordinates were generated. A Using the OpenWeatherApp API and 500 randomly determined cities,
-                        four weather related measurements were scatter plotted against Lattitude to visualize any correlations.
+                    <img src="Images/Temperature.png" class="float-left mr-3 about-img img-responsive" width="100%" alt="Scatterplot of Latitude vs.Temperature">
+                    <p ><strong>Analysis & Observations:</strong> The Latitude vs. Temperature plot has an unexpected result. As you move north of the equator
+                         from a latitude of 0 to a latitude of 80 you see what appears to be a linear decrease in temperature from 70 degrees Fahrenheit to -40 degrees
+                          Fahrenheit from 20 degrees latitude to around 80 degrees latitude.
+
+                        However, we do not see much of a drop moving south of the equator from 0 degrees latitude to around -55 degrees latitude. One reason for this
+                         is that there are so few cities in the southern hemisphere, but that can't fully account for the observation since from 0 to -40 we don't see
+                          any reduction in temperature (although there are ample cities). This compare to moving from 0 to 40 degrees latitude, where we see around a
+                           40 degree drop in temperature.
                     </p>
                 </div>
                 <div class="col-lg-4 my-5 mx-2 p-5 align-self-start">
                     <h1 class="display-5 text-info">Visualizations</h1>
                     <hr>
                     
-                    <img src="Images/Temperature.png" class="img-responsive float-lg-left m-2 border border-primary" width="40%" alt="Scatterplot of Lattitude vs.Temperature">
+                    <img src="Images/Temperature.png" class="img-responsive float-lg-left m-2 border border-primary" width="40%" alt="Scatterplot of Latitude vs.Temperature">
                     
-                    <a href="humidity.html"><img src="Images/Humidity.png" class="img-responsive float-lg-right m-2" width="41%" alt="Scatterplot of Lattitude vs.Temperature"></a>
+                    <a href="humidity.html"><img src="Images/Humidity.png" class="img-responsive float-lg-right m-2" width="41%" alt="Scatterplot of Latitude vs.Temperature"></a>
                     
-                    <a href="cloudiness.html"><img src="Images/Cloudiness.png" class="img-responsive float-lg-left m-2" width="41%" alt="Scatterplot of Lattitude vs.Temperature"></a>
+                    <a href="cloudiness.html"><img src="Images/Cloudiness.png" class="img-responsive float-lg-left m-2" width="41%" alt="Scatterplot of Latitude vs.Temperature"></a>
                     
-                    <a href="windspeed.html"><img src="Images/WindSpeed.png" class="img-responsive float-lg-right m-2" width="41%" alt="Scatterplot of Lattitude vs.Temperature"></a>
+                    <a href="windspeed.html"><img src="Images/WindSpeed.png" class="img-responsive float-lg-right m-2" width="41%" alt="Scatterplot of Latitude vs.Temperature"></a>
 
                 </div>
             </div>

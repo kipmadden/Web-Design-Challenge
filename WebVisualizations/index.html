@@ -50,8 +50,10 @@
                     <hr>
                     <img src="Images/Temperature.png" class="float-left mr-3 about-img img-responsive" width="40%" alt="Scatterplot of Latitude vs.Temperature">
                     <p ><strong>Purpose:</strong> Analyze how weather changes with respect to changes in Latitude.</p>
-                    <p><strong>Methods:</strong> 500 pairs of randomly determined Latitude / Longitude coordinates were generated. A Using the OpenWeatherApp API and 500 randomly determined cities,
-                        four weather related measurements were scatter plotted against Latitude to visualize any correlations.
+                    <p><strong>Methods:</strong> 618 pairs of randomly determined unique Latitude / Longitude coordinates were generated and mapped to their
+                         nearest city using a public python program: citypy. These 618 cities were then used to return four weather data metrics from the
+                          OpenWeatherApp API: Temperature, Humidity, Cloudiness and Wind Speed. These four weather related measurements were then scatter
+                           plotted against Latitude to visualize any correlations. The results are presented on this website.
                     </p>
                 </div>
                 <div class="col-lg-5 my-8 mx-2 p-5">
