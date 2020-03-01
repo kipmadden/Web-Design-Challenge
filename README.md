@@ -50,7 +50,7 @@ Large screen:
 ![WebVis_home_lg.png](WebVisualizations/Images/WebVis_home_lg.png)
 
 Small screen:
-![WebVis_home_sm.png](WebVisualizations/Images/WebVis_home_sm.png)
+![WebVis_home_sm.png](WebVisualizations/Images/WebVis_home_sm.png =400x600)
 ￼
 
 #### Comparisons page
